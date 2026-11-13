@@ -2,7 +2,7 @@ Gestures
 
 <table>
 <tr>
-  <td>Gesture</td><td>Action</td>
+  <td><b>Gesture</b>b</td><td><b>Action</b></td>
 </tr>
 <tr>  
   <td>Move index finger</td><td>Move pointer</td>
@@ -20,3 +20,7 @@ Gestures
 <td>Q</td><td>Stop the program</td>
 </tr>
 </table>
+
+The Tasks API replaces mp.solutions.hands.Hands() with mp.tasks.vision.HandLandmarker. Unlike the old Solutions API, it requires a .task model file and, in video mode, a monotonically increasing timestamp for every frame.
+MODEL:
+https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
