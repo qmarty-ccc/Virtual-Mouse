@@ -24,3 +24,6 @@ Gestures
 The Tasks API replaces mp.solutions.hands.Hands() with mp.tasks.vision.HandLandmarker. Unlike the old Solutions API, it requires a .task model file and, in video mode, a monotonically increasing timestamp for every frame.
 <br><b>MODEL:</b><br>
 https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+<br>
+<br>
+<i>Added stability on fast win11 machine, on GNU/linux kinda sucks</i>
